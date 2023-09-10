@@ -283,8 +283,8 @@ a{
 .player{
     width: 50%;
     height: 1rem;
-     display:flex;
-     flex-wrap:wrap;
+/*      display:flex;
+     flex-wrap:wrap; */
    
 }
 .playback-bar{
