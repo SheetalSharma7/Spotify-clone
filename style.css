@@ -241,8 +241,8 @@ a{
     width: 2rem;
      padding-top: 0.1rem; 
      margin-right: 0.1%;
-     display:flex;
-     flex-wrap:wrap;
+/*      display:flex;
+     flex-wrap:wrap; */
     
  
 }
@@ -272,13 +272,13 @@ a{
 }
 .album{
     width: 25%;
-    display:flex;
-    flex-wrap:wrap;
+/*     display:flex;
+    flex-wrap:wrap; */
  
 }
 .music-player{
     display: flex;
-    flex-wrap:wrap;
+/*     flex-wrap:wrap; */
 }
 .player{
     width: 50%;
