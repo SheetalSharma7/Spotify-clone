@@ -378,6 +378,11 @@ a{
     font-size:0.9rem;
     padding-top:1rem;
     text-align: center;
+
+     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .credits a{
     opacity:0.7;
