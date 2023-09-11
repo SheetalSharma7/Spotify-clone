@@ -274,6 +274,7 @@ a{
 }
 .music-player{
     display: flex;
+    justify-content:flex-start;
 }
 .player{
     width: 50%;
@@ -320,6 +321,53 @@ a{
     display: flex;
    
 }
+.music-icon{
+    position:fixed;
+   bottom:1rem;
+    right:3rem;
+    width:2rem;
+    height:2rem;
+    visibility:hidden;
+}
+@media (max-width:1017px){
+    .control-bar{
+        display:none;
+    }
+    .music-icon{
+        visibility: visible;
+    }
+    @media(max-width:326px){
+        .music-icon{
+            margin-top: 3.5rem;
+            position: fixed;
+        }
+    }
+} 
+.player-controls{
+    margin-right: 1rem;
+}
+@media (max-width:888px){
+    .play-button { 
+        display: none;
+    }    
+}
+.player{
+    margin-right: 1rem;
+}
+@media (max-width:888px){
+    .playback-bar { 
+        width: 11rem;
+        margin-top: 4rem;
+        
+    }   
+}
+.player{
+    @media(max-width:340px){
+      .playback-bar{
+        display: none;
+      }
+    }
+}  
 
 
 
