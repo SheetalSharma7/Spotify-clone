@@ -375,6 +375,19 @@ a{
         }
     }
  }
+.credits{
+    font-size:0.9rem;
+    padding-top:1rem;
+    text-align: center;
+}
+.credits a{
+    opacity:0.7;
+    text-decoration:none;
+    color:white;
+}
+.credits a:hover{
+    opacity:1;
+}
 
 
 
