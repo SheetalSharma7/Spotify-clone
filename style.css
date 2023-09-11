@@ -379,8 +379,7 @@ a{
     padding-top:1rem;
     text-align: center;
 
-     height: 300px;
-    display: flex;
+    height: 300px;
     align-items: center;
     justify-content: center;
 }
