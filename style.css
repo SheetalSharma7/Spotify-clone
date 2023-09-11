@@ -368,6 +368,14 @@ a{
       }
     }
 }  
+.main{
+    @media(max-width:888px){
+        .sidebar{
+            display: none;
+        }
+    }
+ }
+
 
 
 
